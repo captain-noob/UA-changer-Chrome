@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/load.css">
+</head>
+<body>
+    <header>
+        <div class="nav_div border">
+            <img src="/icons/96.png" class="nav_icon">
+            <div class="nav_title_div">
+                <h1 class="nav_title">User Agent Spoofer</h1>
+                <a href="https://foxiton-global.web.app/" target="_blank" class="tit_link">Foxiton Global</a>
+            </div>
+        </div>
+    </header>
+
+    <div id="current" class="div1 border">
+        <h4 class="cur_head">Current UA :</h4><br>
+        <div class="cur_ua">
+            <p id="current-ua"></p>
+        </div>
+    </div>
+
+
+    <form>
+        <div class="div2 border">
+            <h4 class="ch_ua_he">Change User Agent</h4>
+
+            <div class="hed ">
+                <h4 class="float_left">Common UAs</h4>
+                <select id="ua-predefined" style="display: block;" class="float_left select_ua">
+
+                    <!-- delete after devlopment -->
+                        <!-- <optgroup  label="Android">
+                            <option value="Mozilla/5.0 (Linux; Android 5.0; Nexus 6 Build/LRX21D) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/37.0.0.0 Mobile Safari/537.36">Android 5 / Google Nexus 6 / Chrome</option>
+                            <option value="Mozilla/5.0 (Linux; Android 5.1.1; KFAUWI Build/LVY48F) AppleWebKit/537.36 (KHTML, like Gecko) Silk/68.2.6 like Chrome/68.0.3440.85 Safari/537.36">Android 5 / Amazon Silk</option>
+                            <option value="Mozilla/5.0 (Linux; Android 6.0; Nexus 6P Build/MDB08L) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.69 Mobile Safari/537.36">Android 6 / Google Nexus 6P / Chrome</option>
+                            <option value="Mozilla/5.0 (Linux; Android 7.0; SM-T715 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.91 Safari/537.36">Android 7 / Samsung Galaxy Tab / Chrome</option>
+                            <option value="Mozilla/5.0 (Linux; Android 8.0.0; Pixel Build/OPR3.170623.007) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36">Android 8 / Google Pixel / Chrome</option>
+                            <option value="Mozilla/5.0 (Linux; Android 8.0.0; SM-G935F Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.91 Mobile Safari/537.36">Android 8 / Samsung Galaxy S7 Edge / Chrome</option>
+                        </optgroup>
+                        <optgroup label="Mac">
+                            <option value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1.2 Safari/605.1.15">OS X / Safari 11</option>
+                            <option value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8">OS X / Safari 10</option>
+                        </optgroup> -->
+                    <!-- till here -->
+                    <input type="button" id="submit-ua-predefined" class="btn" value="Change UA">
+                </select>
+            </div>
+
+            <div class="hed2">
+                <h4 class="float_left">Custom User Agents</h4><br>
+                <input class="float_left inp" type="text"  placeholder="Enter Custom User Agents" id="ua-custom"><br>
+                <input type="button" class="btn" id="submit-ua-custom" value="Change UA">
+            </div>
+
+            <div id="reset">
+                <!-- <h1>Reset to Default</h1> -->
+                <input type="button" class="btn reset" id="submit-ua-reset" value="Reset to Default">
+                <a href="https://foxiton-global.web.app/#footer" class="btn abt"  target="_blank">About Us</a>
+            </div>
+
+        </div>
+
+    </form>
+
+
+<script src="/js/load.js"></script>
+</body>
+</html>

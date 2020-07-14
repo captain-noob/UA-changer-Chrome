@@ -1,0 +1,168 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Consolas,monaco,monospace; 
+    color: white;
+}
+body{
+    width: 400px;
+    height: 513px;
+    background-color: rgb(24, 23, 23);
+    margin-left: 12px;
+    margin-right: 12px;
+    text-align: center;
+}
+
+/* call  */
+
+.border{
+    border-bottom: solid 1px rgb(102, 101, 101);
+}
+.float_left{
+    float: left;
+}
+
+/* .... */
+
+
+.nav_div{
+    height: 80px;
+    padding: 15px;
+    padding-bottom: 0%;
+    overflow: hidden;
+}
+
+.nav_icon{
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+.nav_title_div{
+    margin: 5px;
+    padding-top: 5px;
+    float: left;
+}
+
+.nav_title{
+    color: rgb(201, 154, 0);
+    font-family: Copperplate,Copperplate Gothic Light,fantasy; 
+    font-size: 25px;
+}
+.tit_link{
+    text-decoration: none;
+    color: rgb(117, 117, 117);
+    font-size: 15px;
+}
+.tit_link:hover{
+    color: rgb(201, 201, 201);
+}
+#current-ua{
+    color: rgb(175, 29, 82);
+    font-weight: bolder;
+}
+
+/* body */
+
+.div1{
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.cur_head{
+    float: left;
+}
+.cur_ua{
+    margin: 10px;
+    border-radius: 5px;
+    background: rgba(145, 145, 145, 0.945);
+    font-size: 12px;
+    padding: 10px;
+    text-align: left;
+}
+
+.ch_ua_he{
+    font-family: Copperplate,Copperplate Gothic Light,fantasy; 
+}
+
+.div2{
+    margin-top: 5px;
+    padding-bottom: 5px;
+    height: 235px;
+    display: block;
+}
+
+.select_ua{
+    width: 365px;
+    height: 25px;
+    margin-top: 5px;
+    color: black;
+    border:none;
+    background-color: rgb(110, 109, 109);
+    margin-left: 8px;
+}
+  
+optgroup,option{
+    color: black;
+    background-color: rgb(110, 109, 109);
+    width: 365px;
+    overflow: hidden;
+}
+optgroup[label]{
+    text-align: center;
+    background-color: rgb(62, 62, 63);
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    margin :20px;
+    width: 365px;
+}
+
+.hed{
+    padding: 4px;
+    display: block;
+    height: 104px;
+    /* border-bottom: 2px solid; */
+}
+.hed2{
+    padding: 4px;
+    display: block;
+    height: 104px;
+}
+
+.btn{
+    float: right;
+    margin-right: 18px;
+    margin-top: 10px;
+    width: 100px;
+    height: 28px;
+    background: rgb(77, 75, 75);
+    border: none;
+}
+
+.inp{
+    margin: 5px;
+    width: 363px;
+    height: 25px;
+    background-color:  rgb(110, 109, 109);
+    border: none;
+    color: black;
+    padding: 1px;
+    opacity: 1;
+    /* font-weight: bolder; */
+}
+::placeholder {
+    color: black;
+}
+.reset{
+    width: 147px;
+    float: left;
+    background-color: rgb(24, 59, 1);
+}
+.abt{
+    font-size: 12px;
+    text-decoration: none;
+    padding-top: 8px;
+    width: 105px;
+    height: 20px;
+    background-color: rgb(16, 16, 46);
+    margin-right: 0;
+}
