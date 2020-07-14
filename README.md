@@ -7,8 +7,8 @@ Added More User Agent**
 
 Installation
 
-    Open Chrome -> [Settings- >Extension]/ url : chrome://extensions/ 
--->Turn On Developer Mode -> Load Unpacked -> Select Folder
+   ` Open Chrome -> [Settings- >Extension]/ url : chrome://extensions/ 
+-->Turn On Developer Mode -> Load Unpacked -> Select Folder`
 
 
 
